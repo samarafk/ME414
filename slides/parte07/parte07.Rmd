@@ -58,7 +58,7 @@ logo: ../logo-imecc.png
 
 > - $A$ = no primeiro dado saiu 4.
 
-> $$ A = \{{(4,1), (4,2), (4,3), (4,4), (4,5), (4,6)}\}$$
+> $$ A = \{(4,1), (4,2), (4,3), (4,4), (4,5), (4,6)\}$$
 
 > - $B$ = a soma dos dados é igual a 10.
 
