@@ -600,7 +600,7 @@ $P(X=x)$ | $(0.2)^{3}$ | $3\times0.8\times(0.2)^{2}$ | $3\times(0.8)^{2}\times0.
 
 > * E o comportamento de $X$ é completamente determinado pela função: 
 
-> $$P(X=x)={{3}\choose{x}}(0.8)^{x}(0.2)^{3-x}, \qquad x=0,1,2,3$$
+> $$P(X=x)={3\choose x}(0.8)^{x}(0.2)^{3-x}, \qquad x=0,1,2,3$$
 
 ## Binomial {.build}
 **Modelo Geral:** Considere a repetição de $n$ ensaios $X_i$ Bernoulli independentes e todos com a mesma probabilidade de sucesso $p$.  
@@ -608,7 +608,7 @@ $P(X=x)$ | $(0.2)^{3}$ | $3\times0.8\times(0.2)^{2}$ | $3\times(0.8)^{2}\times0.
 > A variável aleatória $X=X_{1}+...+X_{n}$ representa o total de sucessos e corresponde ao modelo Binomial com parâmetros $n$ e $p$, ou seja, $X\sim Bin(n,p)$.
 
 > A probabilidade de se observar $x$ é dada pela expressão geral: 
-> $$P(X=x)={{n}\choose{x}}p^{x}(1-p)^{n-x}, \qquad x=0,1,...,n$$
+> $$P(X=x)={n\choose x}p^{x}(1-p)^{n-x}, \qquad x=0,1,...,n$$
 
 > A esperança e variância de uma v.a. Binomial são dadas por:
 > $$\mathbb E(X)=np \qquad \mbox{e} \qquad Var(X)=np(1-p)$$
@@ -671,7 +671,7 @@ Note que a variável aleatória $X$ = número de tubos defeituosos em 10 extraç
 > Então, "não mais do que dois tubos defeituosos" é o evento $\{X\leq2\}$. 
 
 > Sabemos que, para $X \sim Bin(10, 0.2)$ 
-> $$P(X=x) = {{10}\choose{x}} 0.2^x (1-0.2)^{10-x}, \qquad x=0,1, \ldots, 10$$ 
+> $$P(X=x) = { 10\choose x } 0.2^x (1-0.2)^{10-x}, \qquad x=0,1, \ldots, 10$$ 
 
 > e que 
 $$\begin{aligned}
@@ -732,8 +732,8 @@ P(X_A > 1 ) &= 1 - P(X_A = 0 ) - P(X_A = 1 ) \\
 
 De modo similar, para o **comprador B** temos:
 $$\begin{aligned}
-P(X_B > 2 ) &= 1 - {{10} \choose{0}} \left (1-\frac{1}{5} \right )^{10} - {{10} \choose{1}} \frac{1}{5} \left (1-\frac{1}{5} \right )^9 \\
-&- {{10} \choose{2}} \left( \frac{1}{5} \right)^2 \left (1-\frac{1}{5} \right )^8 = 0.3222
+P(X_B > 2 ) &= 1 - {10 \choose 0} \left (1-\frac{1}{5} \right )^{10} - {10 \choose 1} \frac{1}{5} \left (1-\frac{1}{5} \right )^9 \\
+&- {10 \choose 2} \left( \frac{1}{5} \right)^2 \left (1-\frac{1}{5} \right )^8 = 0.3222
 \end{aligned}$$ 
 
 Como o segundo comprador irá classificar o lote como $II$ com maior probabilidade que o primeiro, ele é o que oferece menor lucro para o fornecedor. 
