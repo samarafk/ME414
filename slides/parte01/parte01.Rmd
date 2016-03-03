@@ -119,7 +119,6 @@ Estatística é a arte do aprendizado através de dados.
 > No entanto, muitas vezes esses estudos podem ser realizados com técnicas simples de amostragem, análise de dados e conceitos fundamentais de inferência estatística.
 
 ## Estudo de Caso: stents e prevenção de infarto {.build}
-<div class="columns-2">
 
 > Problema comum em medicina: como avaliar a eficácia de um procedimento médico?
 
@@ -127,8 +126,9 @@ Estatística é a arte do aprendizado através de dados.
 
 > Stents são usados para a recuperação de pacientes que já sofreram infarto.
 
-> <img src="figuras/Stent_NIH.gif" width=300>
-</div>
+<center>
+> <img src="figuras/Stent_NIH.gif" width=200>
+</center>
 
 ## Estudo de Caso: stents e prevenção de infarto {.build}
 
@@ -219,7 +219,6 @@ print(g)
 > Utilizando metodologia estatística, os pesquisadores chegaram à conclusão de que stents são prejudiciais para pacientes com risco de infarto.
 
 ## Estudo de Caso: stents e prevenção de infarto {.build}
-<div class="columns-2">
 <div class="red2">
 **CUIDADO!**
 
@@ -228,8 +227,7 @@ print(g)
 
 > Não podemos generalizar os resultados do estudo para todo tipo de paciente e todo tipo de stent.
 
-<center><img src="figuras/sins1.png" width=300></center>
-</div>
+<center><img src="figuras/sins1.png" width=250></center>
 
 # Estatística Descritiva: Introdução
 
@@ -238,7 +236,7 @@ print(g)
 
 > Gráficos, tabelas, médias, porcentagens,...
 
-![james](figuras/jamesBond.png)
+<center><img src="figuras/jamesBond.png" width=500></center>
 
 
 ## Exemplo: Dados do Censo
